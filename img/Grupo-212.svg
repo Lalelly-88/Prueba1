@@ -1,0 +1,14 @@
+<svg id="Grupo_212" data-name="Grupo 212" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="868.42" viewBox="0 0 1920 868.42">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4e00"/>
+      <stop offset="0.151" stop-color="#f34305"/>
+      <stop offset="0.435" stop-color="#bb0f1d"/>
+      <stop offset="0.636" stop-color="#d83d50"/>
+      <stop offset="0.87" stop-color="#e55765"/>
+      <stop offset="1" stop-color="#e55765"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectángulo_26" data-name="Rectángulo 26" width="1920" height="799" fill="url(#linear-gradient)"/>
+  <path id="wave" d="M0,42.307H53.323c53.323,0,159.969,0,266.615,9.387,106.646,9.563,213.292,28.072,319.938,37.636,106.646,9.387,213.292,9.387,319.938-2.38,106.646-11.59,213.292-35.388,319.938-42.307,106.646-7.183,213.292,2.512,319.938,16.482,106.646,14.235,213.292,32.744,266.614,42.307l53.323,9.387V0H0Z" transform="translate(0 755.601)" fill="#e55765"/>
+</svg>

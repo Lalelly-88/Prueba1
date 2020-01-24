@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba para UX</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-material-design.min.css">
+     <!-- Font Awesome JS -->
+     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Sidebar  Menu  Header  -->
+    <div class="nav-header">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <button id="dismiss" class="btn flecha">
+                <div class="d-flex justify-content-center"><i class="fas fa-arrow-left"></i></div>
+            </button>
+
+            <div class="sidebar-header">
+                <img src="img/logo-blanco.svg" alt="Kolektor logo">
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" >Candidatos</a>
+                </li>
+                <li>
+                    <a href="#">Exámenes</a>
+                </li>
+                <li>
+                    <a href="#">Ayuda</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Menu  -->
+        <div id="">
+
+                <nav class="navbar">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info hamb">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                      <div class="align-self-end">
+                        <img src="img/isologo-blanco.svg" alt="Isologo">
+                      </div>
+                 </nav>
+        </div>
+
+        <!-- Header  -->
+        <div class="header flex-column justify-content-center text-center ">
+            <h1 class="titulo col-12 .col-md-6 col-lg-6"><span class="prueba">PRUEBA</span> <br> PARA <span class="recuadro"> UX </span></h1>
+            <img class="col-9 col-md-7 col-lg-6  imgc" src="img/compu.svg" alt="Compu">
+            <img src="img/recluter.svg" alt="Recluter" class="imgb col-lg-6">
+            </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs d-flex justify-content-center">
+        <div class="col-12 col-md-10">
+            <ul id="tabsJustified" class="nav nav-tabs">
+                <li class="nav-item"><a href="" data-target="#candidatos" data-toggle="tab" class="nav-link active">Candidatos</a></li>
+                <li class="nav-item"><a href="" data-target="#ejercicios" data-toggle="tab" class="nav-link">Ejercicios</a></li>
+            </ul>
+            <br>
+            <div id="tabsJustifiedContent" class="tab-content ">
+                <div id="ejercicios" class="tab-pane fade">
+                    <p class="p">En Kolektor estamos trabajando en un producto web de gestión para la empresa, el mismo debe
+                    ser responsive y basado en bootstrap.</p>
+                </div>
+                <div id="candidatos" class="tab-pane fade active show">
+                    <div class="card row">
+                        <div class="card-body">
+                            <h2 class="">Buscar Candidatos</h2>
+                            <div class="alert alert-success" role="alert">
+                                    Esta es una alerta de éxito.
+                                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                </div>
+
+                            <form class=" row around-xs">
+                                <div class="form-group col-md-6">
+                                    <label for="exampleInputEmail1" class="bmd-label-floating">Documento</label>
+                                    <input type="number" class="form-control" id="exampleInputEmail1">
+                                    <span class="bmd-help">Coloque datos numéricos</span>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="exampleInputPassword1" class="bmd-label-floating">Nombre</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="" class="bmd-label-floating">Apellido</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="" class="bmd-label-floating">Date</label>
+                                    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                                </div>
+                                <div class="form-group col-md-6">
+                                <label for="exampleSelect1" class="bmd-label-floating">Example select</label>
+                                    <select class="form-control" id="exampleSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <div class="botones">
+                                <div class="btn-group-lg" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-secondary col-12 col-md-6 col-lg-3 btn2">Guardar</button>
+                                <button type="button" class="btn btn-secondary col-12 col-md-6 col-lg-3 btn2">Cancelar</button>
+                            </div>
+                                <button type="button" class="btn btn-lg col-lg-6 btn3">Buscar Candidato</button>
+                            </div>
+                            <div class="card-body">
+                                    <!--Tabla Resultados-->
+                                    <h4 class="d-flex justify-content-center">Resultados</h4>
+                                    <table class="table ">
+                                        <thead>
+                                            <tr class="">
+                                                <th>Documento</th>
+                                                <th>Nombre</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="">
+                                            <tr>
+                                                <td>12.345.678</td>
+                                                <td>Otto</td>
+                                                <td><button type="button" class="btn btn-primary btn-sm">Ver</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>98.765.432</td>
+                                                <td>Thornton</td>
+                                                <td><button type="button" class="btn btn-primary btn-sm">Ver</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>14.725.896</td>
+                                                <td>Thornton</td>
+                                                <td><button type="button" class="btn btn-primary btn-sm">Ver</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="">
+                                                    <button type="button icons" class=""><i class="fas fa-copy"></i></button>
+                                                    <button type="button icons" class="" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-edit"></i></button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                        </div>                      
+                    </div> 
+
+                    <!-- Modal -->
+                    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam rem minima quia vero.
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>                                            
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <footer class="footer">
+        <p class="d-flex justify-content-center">Prueba UX 2020 SANCHEZ ALEJANDRA</p>
+    </footer>
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+<link rel="stylesheet" href="js/bootstrap-material-design.min.js">
+
+</html>
